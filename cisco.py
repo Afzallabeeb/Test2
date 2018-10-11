@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import datetime
 
-def systim():
+def systime():
 	todaydate = datetime.date.today()
 	time = datetime.datetime.now().strftime('%I:%M:%p')
 	print ('Current Date and Time is',todaydate,time)
@@ -26,5 +26,5 @@ numbers = [{'sequence': '951, 402, 984, 651, 360, 69, 408, 319, 601, 485, 980, 5
 numb1 = numbers[0]
 
 findevens(numb1)
-systim()
+systime()
 
